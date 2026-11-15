@@ -50,18 +50,27 @@ def sync_directory_to_github(src_dir, repo_prefix=""):
     # Collect files to sync
     ignore_names = {"__pycache__", "venv", ".faceless-shorts", "bin", "node_modules", "renders", ".git", "review"}
     files_to_sync = []
+    if os.path.isfile(src_dir):
+        rel_path = os.path.basename(src_dir)
+        if repo_prefix:
+            rel_path = f"{repo_prefix}/{rel_path}"
+        files_to_sync.append((src_dir, rel_path))
+    else:
+        for root, dirs, files in os.walk(src_dir):
+            # Filter dirs in-place
+            dirs[:] = [d for d in dirs if d not in ignore_names]
+            for f in files:
+                if f.endswith((".mp4", ".wav", ".mp3", ".log", ".lock", ".pyc")):
+                    continue
+                full_path = os.path.join(root, f)
+                rel_path = os.path.relpath(full_path, src_dir).replace("\\", "/")
+                if repo_prefix:
+                    rel_path = f"{repo_prefix}/{rel_path}"
+                files_to_sync.append((full_path, rel_path))
 
-    for root, dirs, files in os.walk(src_dir):
-        # Filter dirs in-place
-        dirs[:] = [d for d in dirs if d not in ignore_names]
-        for f in files:
-            if f.endswith((".mp4", ".wav", ".mp3", ".log", ".lock", ".pyc")):
-                continue
-            full_path = os.path.join(root, f)
-            rel_path = os.path.relpath(full_path, src_dir).replace("\\", "/")
-            if repo_prefix:
-                rel_path = f"{repo_prefix}/{rel_path}"
-            files_to_sync.append((full_path, rel_path))
+    if not files_to_sync:
+        print("[*] No files to sync. Skipping.")
+        return True
 
     print(f"[+] Found {len(files_to_sync)} files to commit.")
 
@@ -133,4 +142,5 @@ def sync_directory_to_github(src_dir, repo_prefix=""):
 
 if __name__ == "__main__":
     src = sys.argv[1] if len(sys.argv) > 1 else r"d:\Youtube\autonomous_agent"
-    sync_directory_to_github(src)
+    prefix = sys.argv[2] if len(sys.argv) > 2 else ""
+    sync_directory_to_github(src, repo_prefix=prefix)
