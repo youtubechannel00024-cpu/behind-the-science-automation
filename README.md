@@ -1,79 +1,34 @@
-# 🔬 Behind The Science — Fully Autonomous YouTube Automation Agent
+# Faceless Shorts: a free Claude skill
 
-[![YouTube Channel](https://img.shields.io/badge/YouTube-Behind%20The%20Science-red?logo=youtube)](https://www.youtube.com/@behindthescience-24)
-[![Channel ID](https://img.shields.io/badge/Channel%20ID-UCXOcwa_0V2tSyPonkbOeSIA-blue)](https://www.youtube.com/channel/UCXOcwa_0V2tSyPonkbOeSIA)
-[![Monetization Ready](https://img.shields.io/badge/YPP-Monetization%20Compliant-success)](#strict-youtube-monetization-compliance)
+Narrated faceless shorts (YouTube Shorts, TikTok, Reels) made 100% in code on your own computer: script, AI voice,
+word-synced captions, animation, sound effects and music, rendered to MP4. No AI video, no API keys, no credits.
 
-**Autonomous AI agent that autonomously researches trending science topics, writes engaging high-retention scripts, synthesizes 3D/2D visual scenes, generates procedural audio/SFX, performs strict QA verification, and publishes YouTube Shorts 24/7.**
+**Styles** (each has a style sheet, a style guide and a finished example video project)
+1. **Deep Dive 3D** (flagship): Zack D. Films-like 3D "What happens if…?" explainers. Example: *What happens if you hold your breath?*
+2. **Night File 3D**: unsolved mysteries and true crime in dark 3D rooms. Example: *The man who jumped out of a plane* (D.B. Cooper).
+3. **Inside Out**: flat 2D x-ray explainers. Example: *What if you swallow gum?*
+4. **Stick Story**: stick-figure survival steps. Example: *What if the power went out for 3 days?*
+5. **Paper Atlas**: history in cut paper and maps. Example: *How one bakery burned down London*.
+6. **Tall Tale 3D**: funny true stories, flat 2D cartoon people in a sunny 3D world. Example: *The girl who was mailed to grandma*.
 
----
+**How it works**
+script.json → Kokoro voice (local, free) → Whisper word timings (local, free) → shots drawn in code, each cut and caption
+placed on its word → procedural sound + music → headless Chrome captures every frame → ffmpeg renders the MP4.
+Claude checks a contact sheet of the whole video before you ever see it.
+Optional: when you ask, Claude uploads the finished short to your YouTube channel through Zapier (it confirms title, visibility and category first).
 
-## 🚀 Published Videos Live On Channel
+**Needs:** Claude Code (or Claude with a linked computer), Node.js 22+, ffmpeg, Google Chrome, Python 3.10+, ~1 GB for the
+voice and Whisper models. Claude installs what's missing.
 
-1. [What REALLY Happens When You Crack Your Knuckles? 💥🦴](https://www.youtube.com/watch?v=MaDtHo_ug4Y) (22.3s)
-2. [Why Do Your Fingers ACTUALLY Wrinkle in Water? 🛁🖐️](https://www.youtube.com/watch?v=I5lO2_n_bSI) (22.3s)
-3. [What REALLY Happens If You Fall Into a Black Hole? 🕳️⏳](https://www.youtube.com/watch?v=7PS6A-MckpU) (59.96s)
-4. [Can You ACTUALLY Cry in Space? 🚀😭](https://www.youtube.com/watch?v=v5rzutkL1_s) (24.4s)
+**Windows:** run the scripts in Git Bash (installed with Git for Windows; Claude Code uses it already).
 
----
+**Install:** put this folder at `~/.claude/skills/faceless-shorts/`, then run `bash scripts/setup.sh` (prints "All set")
+and `bash scripts/selftest.sh` (prints "SELFTEST PASSED"). Start a new session and ask:
+"Make a Deep Dive 3D short: what happens if you crack your knuckles?"
 
-## 🛠️ System Architecture
+**Layout:** `SKILL.md` (what Claude follows) · `scripts/` (setup, selftest, new_video, voice, words, estimate) ·
+`styles/<style>/` (`style-sheet.png`, `STYLE.md`, `example/` = a complete project that renders as-is).
 
-```mermaid
-flowchart TD
-    TS["🔍 Trend Scout (trend_scout.py)"] -->|Next Unused Viral Topic| SG["📝 Script & Story Generator"]
-    SG -->|Hook 0-3s + Peer-Reviewed Facts| MP["🎬 Media Producer"]
-    MP -->|TTS + Whisper Word-Sync| VO["🎙️ Voiceover & Subtitles"]
-    MP -->|Three.js Procedural Canvas| VI["✨ Visual Engine (shots.js)"]
-    MP -->|Numpy/Scipy Foley + Ducked BGM| AU["🎵 Audio Mix (mix.py)"]
-    VO & VI & AU --> CR["🖥️ Headless Chrome & FFmpeg Render"]
-    CR --> QA["🛡️ Quality Assurance (quality_assurance.py)"]
-    QA -->|Passed 1080x1920, <60s| PUB["🚀 YouTube Publisher (Zapier MCP)"]
-    PUB --> YT["📺 Published to YouTube & Added to Playlist"]
-    YT --> DB["📊 History & Analytics Tracker (published_history.json)"]
-    DB --> SCH["⏰ 24/7 Daemon Scheduler (scheduler.py)"]
-    SCH -->|Every 6 Hours| TS
-```
-
----
-
-## 📁 Repository Structure
-
-```
-├── config.py                 # Channel IDs, Category 28, Playlists, Timing guardrails
-├── trend_scout.py            # Deduplication and priority-based topic selector
-├── topic_database.json       # Curated database of 50+ viral science topics
-├── published_history.json    # Live tracker of published video IDs, URLs & statistics
-├── quality_assurance.py      # Automated pre-upload validation (duration, resolution, audio)
-├── publisher.py              # Staging and YouTube upload dispatcher
-├── performance_monitor.py    # Analytics tracker fetching views, likes, and comments
-├── pipeline.py               # Master end-to-end production orchestrator
-├── scheduler.py              # Continuous 24/7 daemon runner
-├── run_now.py                # Instant manual trigger
-└── run_autonomous_agent.bat  # Standalone Windows launcher
-```
-
----
-
-## ⚡ Quick Start & Commands
-
-### 1. View Live Automation Logs
-```powershell
-Get-Content -Path "d:\Youtube\autonomous_agent\automation.log" -Tail 20 -Wait
-```
-
-### 2. Trigger an Immediate Video (Manual Override)
-```powershell
-& "d:\Youtube\.faceless-shorts\venv\Scripts\python.exe" "d:\Youtube\autonomous_agent\run_now.py"
-```
-
-### 3. Run Daemon Service
-```powershell
-.\run_autonomous_agent.bat
-```
-
----
-
-## 🛡️ Monetization & Safety Guardrails
-- **Publishing Rhythm:** Calibrated to **every 6 hours (4 videos/day)** across global peak viewing hours. Prevents YouTube algorithmic spam flags and protects YouTube Partner Program (YPP) monetization eligibility.
-- **Original Content:** All scripts use peer-reviewed citations, procedural sound design (zero copyright strikes), and custom vector/canvas animations.
+**Licenses:** the code, stories, drawings and sound are original and free to use in your videos. Inter font: SIL Open Font
+License 1.1. Installed on first use: Kokoro-82M (Apache-2.0) via kokoro-onnx (MIT), faster-whisper + Whisper small.en (MIT),
+numpy, scipy.
