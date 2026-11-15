@@ -1,0 +1,15 @@
+{
+  "system": {
+    "platform": "windows",
+    "python_executable": "d:\\Youtube\\.faceless-shorts\\venv\\Scripts\\python.exe",
+    "ffmpeg_executable": "d:\\Youtube\\bin\\ffmpeg.exe",
+    "ffprobe_executable": "d:\\Youtube\\bin\\ffprobe.exe",
+    "node_executable": "node"
+  },
+  "master_orchestration": {
+    "channels_root": "YouTube_Channels",
+    "shared_resources_root": "Shared_Resources",
+    "concurrency_limit": 1,
+    "global_daily_upload_cap": 20
+  }
+}
