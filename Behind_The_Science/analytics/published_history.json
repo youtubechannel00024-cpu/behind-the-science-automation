@@ -1,0 +1,73 @@
+{
+  "channel": {
+    "name": "Behind The Science",
+    "handle": "@behindthescience-24",
+    "id": "UCXOcwa_0V2tSyPonkbOeSIA"
+  },
+  "published_videos": [
+    {
+      "id": "MaDtHo_ug4Y",
+      "title": "What REALLY Happens When You Crack Your Knuckles? \ud83d\udca5\ud83e\uddb4",
+      "url": "https://www.youtube.com/watch?v=MaDtHo_ug4Y",
+      "topic": "Knuckle Cracking Science",
+      "style": "deep-dive",
+      "duration": 22.3,
+      "playlist_id": "PLEZgc6prAhD0",
+      "published_at": "2026-11-15T13:28:00+05:30",
+      "status": "published",
+      "stats": {
+        "views": 510,
+        "likes": 12,
+        "comments": 2
+      }
+    },
+    {
+      "id": "I5lO2_n_bSI",
+      "title": "Why Do Your Fingers ACTUALLY Wrinkle in Water? \ud83d\udec1\ud83d\udd90\ufe0f",
+      "url": "https://www.youtube.com/watch?v=I5lO2_n_bSI",
+      "topic": "Pruny Fingers Nervous System Reflex",
+      "style": "deep-dive",
+      "duration": 22.3,
+      "playlist_id": "PLEZgc6prAhD0",
+      "published_at": "2026-11-15T14:02:00+05:30",
+      "status": "published",
+      "stats": {
+        "views": 297,
+        "likes": 3,
+        "comments": 0
+      }
+    },
+    {
+      "id": "7PS6A-MckpU",
+      "title": "What REALLY Happens If You Fall Into a Black Hole? \ud83d\udd73\ufe0f\u23f3",
+      "url": "https://www.youtube.com/watch?v=7PS6A-MckpU",
+      "topic": "Spaghettification & Gravitational Time Dilation",
+      "style": "night-file",
+      "duration": 59.96,
+      "playlist_id": "PLEZgc6prAhD0",
+      "published_at": "2026-11-15T15:45:00+05:30",
+      "status": "published",
+      "stats": {
+        "views": 6,
+        "likes": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "v5rzutkL1_s",
+      "title": "Can You ACTUALLY Cry in Space? \ud83d\ude80\ud83d\ude2d",
+      "url": "https://www.youtube.com/watch?v=v5rzutkL1_s",
+      "topic": "Can You Cry in Space?",
+      "style": "deep-dive",
+      "duration": 24.4,
+      "playlist_id": "PLEZgc6prAhD0",
+      "published_at": "2026-11-15T10:50:25.414426+00:00",
+      "status": "published",
+      "stats": {
+        "views": "0",
+        "likes": "0",
+        "comments": "0"
+      }
+    }
+  ]
+}

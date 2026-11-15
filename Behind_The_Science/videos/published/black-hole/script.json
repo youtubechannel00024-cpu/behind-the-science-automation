@@ -1,0 +1,56 @@
+{
+  "title": "What REALLY Happens If You Fall Into a Black Hole?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.25,
+  "lead": 0.25,
+  "outro": 0.5,
+  "gap": 0.16,
+  "music": "tension",
+  "sources": [
+    "Einstein 1915, General Theory of Relativity (Gravitational Time Dilation)",
+    "Event Horizon Telescope Collaboration 2019, First M87* Image",
+    "Kip Thorne 1994, Black Holes & Time Warps: Einstein's Outrageous Legacy"
+  ],
+  "lines": [
+    {
+      "text": "If you fell into a black hole, you would actually watch the future of the universe pass in seconds.",
+      "caps": "FALL INTO *A | BLACK *HOLE?"
+    },
+    {
+      "text": "Black holes aren't just cosmic vacuums. They warp space and time to the absolute extreme.",
+      "caps": "EXTREME *WARPS | IN *SPACETIME"
+    },
+    {
+      "text": "As you get closer, gravity bends light around it, forming a glowing halo called the photon sphere.",
+      "caps": "LIGHT *BENDING | PHOTON *SPHERE"
+    },
+    {
+      "text": "Here is where physics gets wild. If a friend watched you from outside, they would never see you enter.",
+      "caps": "THEY *NEVER | SEE YOU *ENTER!"
+    },
+    {
+      "text": "Because gravity slows time, they see your clock ticking slower until you freeze at the edge forever.",
+      "caps": "TIME *FREEZES | AT THE *HORIZON"
+    },
+    {
+      "text": "Yet from your perspective, you plunge right in, watching billions of cosmic years flash by behind you!",
+      "caps": "BILLIONS OF *YEARS | FLASH *BY!"
+    },
+    {
+      "text": "Then, tidal gravity takes over. The pull at your feet is millions of times stronger, stretching you like a noodle!",
+      "caps": "SPAGHETTIFIED | LIKE A *NOODLE"
+    },
+    {
+      "text": "Inside the horizon, space and time swap roles. Reaching the singularity becomes as unavoidable as tomorrow.",
+      "caps": "TIME AND *SPACE | SWAP *ROLES!"
+    },
+    {
+      "text": "At the center lies the singularity, where infinite mass is crushed to zero volume, and physics breaks down.",
+      "caps": "INFINITE *MASS | ZERO *VOLUME"
+    },
+    {
+      "text": "Black holes are nature's ultimate time machines. Subscribe to Behind The Science to explore the cosmos!",
+      "caps": "COSMIC *TIME MACHINE | SUBSCRIBE *FOR MORE!"
+    }
+  ]
+}

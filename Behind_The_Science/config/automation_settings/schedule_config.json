@@ -1,0 +1,13 @@
+{
+  "interval_hours": 6,
+  "min_duration_seconds": 20.0,
+  "max_duration_seconds": 59.9,
+  "target_resolution": "1080x1920",
+  "aspect_ratio": "9:16",
+  "preferred_styles": [
+    "deep-dive",
+    "night-file",
+    "inside-out"
+  ],
+  "max_daily_uploads": 4
+}

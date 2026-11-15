@@ -1,0 +1,37 @@
+{
+  "duration": 22.904,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lines": [
+    {
+      "i": 0,
+      "text": "What actually happens when you crack your knuckles?",
+      "start": 0.35,
+      "end": 3.11
+    },
+    {
+      "i": 1,
+      "text": "Most people think your bones are grinding together, but that's a total myth.",
+      "start": 3.33,
+      "end": 7.41
+    },
+    {
+      "i": 2,
+      "text": "Inside your joint, thick fluid suddenly drops in pressure as you stretch,",
+      "start": 7.63,
+      "end": 11.95
+    },
+    {
+      "i": 3,
+      "text": "forming tiny gas bubbles that instantly collapse and pop!",
+      "start": 12.17,
+      "end": 15.818
+    },
+    {
+      "i": 4,
+      "text": "One doctor cracked one hand for sixty years to prove it does zero damage. So crack away!",
+      "start": 16.038,
+      "end": 22.254
+    }
+  ]
+}
