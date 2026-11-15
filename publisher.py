@@ -28,6 +28,35 @@ def upload_to_temp_host(file_path):
         print(f"[!] Staging upload failed: {e}")
         raise
 
+def trigger_cloud_publish(title, description, video_url, tags, playlist_id):
+    """Sends payload to Zapier webhook for cloud execution if configured"""
+    webhook_url = os.environ.get("ZAPIER_WEBHOOK_URL")
+    if not webhook_url:
+        print("[!] No ZAPIER_WEBHOOK_URL found in environment. Skipping webhook push.")
+        return False
+
+    payload = {
+        "title": title,
+        "description": description,
+        "video_url": video_url,
+        "tags": tags,
+        "playlist_id": playlist_id
+    }
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        webhook_url,
+        data=data,
+        headers={"Content-Type": "application/json", "User-Agent": "BTS-Publisher"},
+        method="POST"
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            print(f"[+] Successfully triggered Zapier Webhook! (HTTP {resp.status})")
+            return True
+    except Exception as e:
+        print(f"[!] Zapier webhook trigger failed: {e}")
+        return False
+
 def record_publication(video_id, title, url, topic, style, duration, playlist_id):
     """Records published video to published_history.json"""
     history = {"published_videos": []}
