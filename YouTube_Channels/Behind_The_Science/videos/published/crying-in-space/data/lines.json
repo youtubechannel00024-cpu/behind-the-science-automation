@@ -1,0 +1,37 @@
+{
+  "duration": 24.416,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lines": [
+    {
+      "i": 0,
+      "text": "What actually happens if an astronaut cries in space?",
+      "start": 0.35,
+      "end": 3.686
+    },
+    {
+      "i": 1,
+      "text": "On Earth, gravity pulls tears down your cheeks, but in zero gravity,",
+      "start": 3.906,
+      "end": 8.442
+    },
+    {
+      "i": 2,
+      "text": "tears don't fall at all! Instead, surface tension binds the liquid,",
+      "start": 8.662,
+      "end": 13.774
+    },
+    {
+      "i": 3,
+      "text": "forming a giant, growing water bubble directly over your eyeballs!",
+      "start": 13.994,
+      "end": 18.17
+    },
+    {
+      "i": 4,
+      "text": "Astronaut Chris Hadfield said it stings violently and blinds you until you grab a towel to wipe it off!",
+      "start": 18.39,
+      "end": 23.766
+    }
+  ]
+}

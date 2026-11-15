@@ -1,0 +1,39 @@
+{
+  "title": "Why Do Your Fingers Wrinkle in Water?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.25,
+  "lead": 0.25,
+  "outro": 0.5,
+  "gap": 0.18,
+  "music": "bed",
+  "sources": [
+    "Kareklas et al. 2013, Biology Letters: Water-induced finger wrinkles improve handling of wet objects",
+    "O'Riain 1973, New and simple test of nerve function in hand (sympathetic vasomotor wrinkling)"
+  ],
+  "lines": [
+    {
+      "text": "Why do your fingers actually wrinkle in the bath?",
+      "caps": "WHY DO *YOUR | FINGERS *WRINKLE?"
+    },
+    {
+      "text": "Most people think skin absorbs water like a sponge. Total myth!",
+      "caps": "WATER *SPONGE? | TOTAL *MYTH!"
+    },
+    {
+      "text": "It's an involuntary reflex from your nervous system!",
+      "caps": "NERVOUS *SYSTEM | BRAIN *REFLEX"
+    },
+    {
+      "text": "Your brain commands blood vessels in your fingertips to shrink,",
+      "caps": "BLOOD *VESSELS | SUDDENLY *SHRINK"
+    },
+    {
+      "text": "creating tire treads to grip wet objects without slipping.",
+      "caps": "TIRE *TREADS | FOR *WET GRIP"
+    },
+    {
+      "text": "In fact, if your finger nerves are cut, they will never wrinkle!",
+      "caps": "CUT *NERVES | NEVER *WRINKLE!"
+    }
+  ]
+}

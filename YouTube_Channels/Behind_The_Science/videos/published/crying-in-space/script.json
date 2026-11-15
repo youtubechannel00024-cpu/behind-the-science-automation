@@ -1,0 +1,35 @@
+{
+  "title": "What Happens If You Cry In Space?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lead": 0.35,
+  "outro": 0.65,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "NASA Flight Experience: Tear Behavior in Microgravity (Chris Hadfield Experiment)",
+    "European Space Agency (ESA): Fluid Dynamics in Zero Gravity"
+  ],
+  "lines": [
+    {
+      "text": "What actually happens if an astronaut cries in space?",
+      "caps": "WHAT *HAPPENS | IF YOU CRY *IN SPACE?"
+    },
+    {
+      "text": "On Earth, gravity pulls tears down your cheeks, but in zero gravity,",
+      "caps": "EARTH: *GRAVITY PULLS | ZERO *GRAVITY?"
+    },
+    {
+      "text": "tears don't fall at all! Instead, surface tension binds the liquid,",
+      "caps": "TEARS *DON'T FALL! | SURFACE *TENSION"
+    },
+    {
+      "text": "forming a giant, growing water bubble directly over your eyeballs!",
+      "caps": "GIANT *WATER BUBBLE | ON YOUR *EYEBALLS!"
+    },
+    {
+      "text": "Astronaut Chris Hadfield said it stings violently and blinds you until you grab a towel to wipe it off!",
+      "caps": "IT *STINGS & BLINDS YOU | UNTIL YOU *WIPE IT!"
+    }
+  ]
+}

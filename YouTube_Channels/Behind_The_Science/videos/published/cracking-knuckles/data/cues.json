@@ -1,0 +1,86 @@
+{
+ "duration": 22.904,
+ "cues": [
+  {
+   "t": 0,
+   "type": "whoosh"
+  },
+  {
+   "t": 1.76,
+   "type": "pop",
+   "gain": 0.9
+  },
+  {
+   "t": 2.1,
+   "type": "boing",
+   "gain": 0.4
+  },
+  {
+   "t": 3.25,
+   "type": "whoosh"
+  },
+  {
+   "t": 3.75,
+   "type": "slide",
+   "dur": 1.2
+  },
+  {
+   "t": 6.46,
+   "type": "slam"
+  },
+  {
+   "t": 7.55,
+   "type": "whoosh"
+  },
+  {
+   "t": 9.2,
+   "type": "pop"
+  },
+  {
+   "t": 10.34,
+   "type": "slide",
+   "dur": 1.2
+  },
+  {
+   "t": 12.09,
+   "type": "whoosh"
+  },
+  {
+   "t": 13.42,
+   "type": "bubbles",
+   "dur": 1.5199999999999996
+  },
+  {
+   "t": 14.94,
+   "type": "slam"
+  },
+  {
+   "t": 14.94,
+   "type": "pop",
+   "gain": 1
+  },
+  {
+   "t": 15.958,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.358,
+   "type": "thud"
+  },
+  {
+   "t": 19.08,
+   "type": "pop",
+   "gain": 0.8
+  },
+  {
+   "t": 20.42,
+   "type": "boing",
+   "gain": 0.6
+  },
+  {
+   "t": 20.62,
+   "type": "sparkle",
+   "dur": 1
+  }
+ ]
+}

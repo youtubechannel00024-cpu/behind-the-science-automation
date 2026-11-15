@@ -1,0 +1,35 @@
+{
+  "title": "What Happens When You Crack Your Knuckles?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lead": 0.35,
+  "outro": 0.65,
+  "gap": 0.22,
+  "music": "bed",
+  "sources": [
+    "Kawchuk et al. 2015, PLOS ONE: Real-Time Visualization of Joint Cavitation via MRI",
+    "Donald Unger, MD, 2009 Ig Nobel Prize in Medicine: Knuckle cracking and arthritis in a 60-year experiment"
+  ],
+  "lines": [
+    {
+      "text": "What actually happens when you crack your knuckles?",
+      "caps": "WHAT *HAPPENS | WHEN YOU CRACK *KNUCKLES?"
+    },
+    {
+      "text": "Most people think your bones are grinding together, but that's a total myth.",
+      "caps": "BONES *GRINDING? | TOTAL *MYTH"
+    },
+    {
+      "text": "Inside your joint, thick fluid suddenly drops in pressure as you stretch,",
+      "caps": "INSIDE YOUR *JOINT | PRESSURE *DROPS"
+    },
+    {
+      "text": "forming tiny gas bubbles that instantly collapse and pop!",
+      "caps": "GAS *BUBBLES | COLLAPSE AND *POP!"
+    },
+    {
+      "text": "One doctor cracked one hand for sixty years to prove it does zero damage. So crack away!",
+      "caps": "60 *YEARS | ZERO *DAMAGE | SO CRACK *AWAY!"
+    }
+  ]
+}
