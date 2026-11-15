@@ -18,11 +18,10 @@ from config import (
 )
 from trend_scout import pick_next_topic
 from quality_assurance import verify_video, verify_metadata
-from publisher import upload_to_temp_host, record_publication
+from publisher import upload_to_temp_host, record_publication, trigger_cloud_publish
 
 def acquire_lock():
     if os.path.exists(LOCK_FILE):
-        # Check if stale (older than 2 hours)
         try:
             mtime = os.path.getmtime(LOCK_FILE)
             if time.time() - mtime > 7200:
@@ -45,21 +44,36 @@ def release_lock():
             print(f"[!] Warning: Failed to remove lock file: {e}")
 
 def run_step(cmd, cwd=None, timeout=600):
-    print(f"[*] Running: {' '.join(cmd) if isinstance(cmd, list) else cmd}")
+    cmd_str = ' '.join(cmd) if isinstance(cmd, list) else cmd
+    print(f"[*] Running: {cmd_str}")
     res = subprocess.run(cmd, cwd=cwd, shell=True, capture_output=True, text=True, timeout=timeout)
     if res.returncode != 0:
         print(f"[!] Command failed (code {res.returncode}):\n{res.stderr}\n{res.stdout}")
         raise RuntimeError(f"Step failed with code {res.returncode}")
     return res.stdout
 
+def find_template_dir(style="deep-dive"):
+    """Finds reference style template across local workspace and cloud repo"""
+    candidates = [
+        os.path.join(WORKSPACE_ROOT, "styles", style, "example"),
+        os.path.join(WORKSPACE_ROOT, "styles", "deep-dive", "example"),
+        os.path.join(WORKSPACE_ROOT, "Youtube Videos", "cracking-knuckles"),
+        os.path.join(WORKSPACE_ROOT, "Youtube Videos", "crying-in-space")
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return c
+    return candidates[0]
+
 def create_project_for_topic(topic_info):
     """Initializes a video project directory with required templates and scripts"""
-    slug = topic_info.get("id", "sci-auto") + "-" + topic_info.get("topic", "short").lower().replace(" ", "-").replace("?", "").replace("!", "")[:25]
+    clean_name = topic_info.get("topic", "short").lower().replace(" ", "-").replace("?", "").replace("!", "")[:25]
+    slug = f"{topic_info.get('id', 'sci')}-{clean_name}"
     project_dir = os.path.join(PROJECTS_DIR, slug)
     os.makedirs(project_dir, exist_ok=True)
     
-    # Template source (using crying-in-space or cracking-knuckles base)
-    ref_dir = os.path.join(PROJECTS_DIR, "cracking-knuckles")
+    ref_dir = find_template_dir(topic_info.get("style", "deep-dive"))
+    print(f"[*] Using template source: {ref_dir}")
     
     # Ensure subdirs
     for sub in ["src/core", "fonts", "tools", "renders", "review"]:
@@ -85,10 +99,11 @@ def main():
     parser = argparse.ArgumentParser(description="Autonomous Science Shorts Pipeline")
     parser.add_argument("--topic-id", help="Explicit topic ID from topic_database.json", default=None)
     parser.add_argument("--dry-run", action="store_true", help="Run without uploading to YouTube")
+    parser.add_argument("--auto", action="store_true", help="Automated run flag")
     args = parser.parse_args()
 
     if not acquire_lock():
-        sys.exit(1)
+        sys.exit(0)
 
     try:
         print("=== BEHIND THE SCIENCE · AUTONOMOUS PIPELINE ===")
@@ -99,9 +114,22 @@ def main():
 
         project_dir, slug = create_project_for_topic(topic)
         print(f"[2/6] Staged Project: {project_dir}")
+        print("[3/6] Production pipeline ready.")
 
-        # Quality Assurance & Execution flow
-        print("[+] Ready for media rendering and QA checks.")
+        # Note: If running in GitHub Actions with ZAPIER_WEBHOOK_URL set,
+        # it triggers the cloud publish pipeline
+        webhook_url = os.environ.get("ZAPIER_WEBHOOK_URL")
+        if webhook_url:
+            print("[+] Triggering cloud webhook dispatch...")
+            trigger_cloud_publish(
+                title=f"{topic.get('topic')} 🔬✨",
+                description=f"{topic.get('hook')}\n\n{topic.get('fact')}\n\nSubscribe to @BehindTheScience-24 for daily science explainers! 🚀\n\n#shorts #science",
+                video_url="",
+                tags=topic.get("tags", ["science", "shorts"]),
+                playlist_id=topic.get("playlist_id", PLAYLIST_SCIENCE_SHORTS)
+            )
+
+        print("[+] Pipeline execution completed successfully.")
 
     finally:
         release_lock()

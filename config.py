@@ -18,16 +18,26 @@ PLAYLIST_MYTHBUSTERS = "PLLSGxsK9q3tY"      # Mythbusters & Bizarre Facts | Scie
 
 # Cross-Platform Base Paths (Windows & Linux / GitHub Actions)
 AGENT_ROOT = os.path.dirname(os.path.abspath(__file__))
-WORKSPACE_ROOT = os.path.dirname(AGENT_ROOT)
-PROJECTS_DIR = os.path.join(WORKSPACE_ROOT, "Youtube Videos")
+if os.path.basename(AGENT_ROOT) == "autonomous_agent":
+    WORKSPACE_ROOT = os.path.dirname(AGENT_ROOT)
+else:
+    WORKSPACE_ROOT = AGENT_ROOT
+
+PROJECTS_DIR = os.path.join(WORKSPACE_ROOT, "projects")
+os.makedirs(PROJECTS_DIR, exist_ok=True)
 
 FFMPEG = shutil.which("ffmpeg") or (r"d:\Youtube\bin\ffmpeg.exe" if os.path.exists(r"d:\Youtube\bin\ffmpeg.exe") else "ffmpeg")
 FFPROBE = shutil.which("ffprobe") or (r"d:\Youtube\bin\ffprobe.exe" if os.path.exists(r"d:\Youtube\bin\ffprobe.exe") else "ffprobe")
 PYTHON_VENV = sys.executable
 
-_repo_skill = os.path.join(WORKSPACE_ROOT, "skills", "faceless-shorts")
-_local_skill = os.path.join(WORKSPACE_ROOT, ".agents", "skills", "faceless-shorts")
-SKILL_ROOT = _repo_skill if os.path.exists(_repo_skill) else _local_skill
+# Skill root (resolves both in local setup and in GitHub repo)
+_candidate_skills = [
+    os.path.join(WORKSPACE_ROOT, "styles"),
+    os.path.join(WORKSPACE_ROOT, "skills", "faceless-shorts"),
+    os.path.join(WORKSPACE_ROOT, ".agents", "skills", "faceless-shorts"),
+    r"d:\Youtube\.agents\skills\faceless-shorts"
+]
+SKILL_ROOT = next((p for p in _candidate_skills if os.path.exists(p)), _candidate_skills[0])
 
 # Publishing Settings
 DEFAULT_CATEGORY_ID = "28"  # Science & Technology
@@ -36,8 +46,6 @@ PRIVACY_STATUS = "public"
 MADE_FOR_KIDS = False
 
 # Schedule & Policy Guardrails
-# 4 videos per day (every 6 hours) is optimal for YouTube Partner Program compliance
-# (Prevents "Repetitive / Inauthentic Content" flagging and avoids API quota limits)
 INTERVAL_HOURS = 6
 MAX_DURATION_SECONDS = 59.9
 MIN_DURATION_SECONDS = 20.0
