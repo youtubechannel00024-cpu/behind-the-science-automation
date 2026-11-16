@@ -31,7 +31,7 @@ jobs:
       - name: Install System Dependencies (FFmpeg & Google Chrome)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg google-chrome-stable || true
+          sudo apt-get install -y ffmpeg google-chrome-stable xvfb libgl1-mesa-dri libgl1-mesa-glx libegl1-mesa || true
 
       - name: Install Python Dependencies
         run: |
@@ -43,7 +43,10 @@ jobs:
           ZAPIER_WEBHOOK_URL: ${{ secrets.ZAPIER_WEBHOOK_URL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHROME: /usr/bin/google-chrome
+          SOFTWARE_GL: "1"
+          DISPLAY: :99
         run: |
+          Xvfb :99 -screen 0 1080x1920x24 > /dev/null 2>&1 &
           python pipeline.py --auto
 
       - name: Commit and Push Updated History
