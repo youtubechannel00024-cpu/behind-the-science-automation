@@ -1,0 +1,37 @@
+{
+  "duration": 24.368,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lines": [
+    {
+      "i": 0,
+      "text": "Your stomach acid is strong enough to dissolve razor blades and metal.",
+      "start": 0.35,
+      "end": 4.286
+    },
+    {
+      "i": 1,
+      "text": "So why doesn't it digest your own body from the inside?",
+      "start": 4.506,
+      "end": 7.914
+    },
+    {
+      "i": 2,
+      "text": "Inside your stomach is hydrochloric acid with a terrifying pH of 1.5!",
+      "start": 8.134,
+      "end": 13.174
+    },
+    {
+      "i": 3,
+      "text": "You survive because a thick mucus barrier shields your stomach wall and neutralizes the acid.",
+      "start": 13.394,
+      "end": 18.602
+    },
+    {
+      "i": 4,
+      "text": "Plus, your stomach generates an entirely new cellular lining every three days!",
+      "start": 18.822,
+      "end": 23.718
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Why Does Stomach Acid Not Melt You?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lead": 0.35,
+  "outro": 0.65,
+  "gap": 0.22,
+  "music": "bed",
+  "lines": [
+    {
+      "text": "Your stomach acid is strong enough to dissolve razor blades and metal.",
+      "caps": "STOMACH ACID | DISSOLVES *METAL"
+    },
+    {
+      "text": "So why doesn't it digest your own body from the inside?",
+      "caps": "WHY DOESN'T IT | MELT *YOU?"
+    },
+    {
+      "text": "Inside your stomach is hydrochloric acid with a terrifying pH of 1.5!",
+      "caps": "HYDROCHLORIC ACID | pH *1.5!"
+    },
+    {
+      "text": "You survive because a thick mucus barrier shields your stomach wall and neutralizes the acid.",
+      "caps": "THICK *MUCUS SHIELD | BLOCKS THE *ACID!"
+    },
+    {
+      "text": "Plus, your stomach generates an entirely new cellular lining every three days!",
+      "caps": "NEW STOMACH LINING | EVERY *3 DAYS!"
+    }
+  ]
+}
