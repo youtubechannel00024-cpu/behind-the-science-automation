@@ -1,0 +1,47 @@
+{
+  "title": "What Happens If A Bullet Ant Stings You?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lead": 0.35,
+  "outro": 0.65,
+  "gap": 0.22,
+  "music": "bed",
+  "lines": [
+    {
+      "text": "This tiny insect delivers the most agonizing sting known to modern science.",
+      "caps": "WORLD'S DEADLIEST | PAINFUL *STING!"
+    },
+    {
+      "text": "Meet the South American bullet ant, named because its sting genuinely feels like being shot by a gun.",
+      "caps": "FEELS LIKE | BEING *SHOT!"
+    },
+    {
+      "text": "On the Schmidt sting pain index, it scores a four-plus: the absolute maximum level of pain.",
+      "caps": "LEVEL 4.0+ | MAXIMUM *PAIN!"
+    },
+    {
+      "text": "When it stings, it clamps down with razor mandibles and injects a paralyzing neurotoxin called poneratoxin.",
+      "caps": "INJECTS *PONERATOXIN | DEADLY *VENOM!"
+    },
+    {
+      "text": "Poneratoxin targets your neurons, physically jamming your voltage-gated sodium channels permanently open.",
+      "caps": "JAMS *SODIUM CHANNELS | FOREVER *OPEN!"
+    },
+    {
+      "text": "This forces your pain receptors to fire non-stop electrical screaming signals into your spinal cord.",
+      "caps": "NON-STOP | ELECTRICAL *FIRE!"
+    },
+    {
+      "text": "Within minutes, your heart races, cold sweats break out, and your entire limb shakes with violent, uncontrollable tremors.",
+      "caps": "VIOLENT *TREMORS! | RACING *HEART!"
+    },
+    {
+      "text": "Unlike a bee sting, this excruciating agony does not fade for twenty-four uninterrupted hours.",
+      "caps": "24 HOURS | OF PURE *AGONY!"
+    },
+    {
+      "text": "Yet the Sateré-Mawé tribe endures eighty stings in gloves to become warriors. Subscribe to Behind The Science for daily facts.",
+      "caps": "WARRIOR *RITUAL! | SUBSCRIBE *NOW!"
+    }
+  ]
+}

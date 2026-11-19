@@ -1,0 +1,34 @@
+# Virtual environment and binaries
+.faceless-shorts/venv/
+venv/
+bin/
+*.exe
+*.dll
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary media & renders
+renders/*.mp4
+Youtube Videos/*/renders/*.mp4
+YouTube_Channels/**/renders/*.mp4
+data/*.wav
+data/*.mp3
+Youtube Videos/*/data/*.wav
+Youtube Videos/*/data/*.mp3
+YouTube_Channels/**/data/*.wav
+YouTube_Channels/**/data/*.mp3
+review/contact.png
+Youtube Videos/*/review/contact.png
+
+# Agent logs and runtime locks
+*.log
+*.lock
+autonomous_agent/automation.log
+autonomous_agent/agent.lock
+
+# User uploads & internal caches
+.user_uploaded/
+.gemini/

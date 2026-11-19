@@ -1,0 +1,61 @@
+{
+  "duration": 56.472,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lines": [
+    {
+      "i": 0,
+      "text": "This tiny insect delivers the most agonizing sting known to modern science.",
+      "start": 0.35,
+      "end": 4.838
+    },
+    {
+      "i": 1,
+      "text": "Meet the South American bullet ant, named because its sting genuinely feels like being shot by a gun.",
+      "start": 5.058,
+      "end": 10.794
+    },
+    {
+      "i": 2,
+      "text": "On the Schmidt sting pain index, it scores a four-plus: the absolute maximum level of pain.",
+      "start": 11.014,
+      "end": 16.702
+    },
+    {
+      "i": 3,
+      "text": "When it stings, it clamps down with razor mandibles and injects a paralyzing neurotoxin called poneratoxin.",
+      "start": 16.922,
+      "end": 23.282
+    },
+    {
+      "i": 4,
+      "text": "Poneratoxin targets your neurons, physically jamming your voltage-gated sodium channels permanently open.",
+      "start": 23.502,
+      "end": 29.334
+    },
+    {
+      "i": 5,
+      "text": "This forces your pain receptors to fire non-stop electrical screaming signals into your spinal cord.",
+      "start": 29.554,
+      "end": 35.122
+    },
+    {
+      "i": 6,
+      "text": "Within minutes, your heart races, cold sweats break out, and your entire limb shakes with violent, uncontrollable tremors.",
+      "start": 35.342,
+      "end": 42.47
+    },
+    {
+      "i": 7,
+      "text": "Unlike a bee sting, this excruciating agony does not fade for twenty-four uninterrupted hours.",
+      "start": 42.69,
+      "end": 48.162
+    },
+    {
+      "i": 8,
+      "text": "Yet the Sater\u00e9-Maw\u00e9 tribe endures eighty stings in gloves to become warriors. Subscribe to Behind The Science for daily facts.",
+      "start": 48.382,
+      "end": 55.822
+    }
+  ]
+}
