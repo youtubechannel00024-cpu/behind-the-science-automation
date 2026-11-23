@@ -1,0 +1,61 @@
+{
+  "duration": 60.168,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lines": [
+    {
+      "i": 0,
+      "text": "A single bolt of lightning contains up to one billion volts, and heats the air to fifty-thousand degrees Fahrenheit.",
+      "start": 0.35,
+      "end": 6.662
+    },
+    {
+      "i": 1,
+      "text": "That is five times hotter than the surface of the Sun. So what happens if it strikes you?",
+      "start": 6.882,
+      "end": 12.306
+    },
+    {
+      "i": 2,
+      "text": "In less than a millisecond, the massive current hits your skin, triggering an effect called an external flashover.",
+      "start": 12.526,
+      "end": 18.454
+    },
+    {
+      "i": 3,
+      "text": "Any sweat or rain on your body instantly flash-boils into steam, expanding so violently it blows your clothes right off.",
+      "start": 18.674,
+      "end": 25.418
+    },
+    {
+      "i": 4,
+      "text": "Metal necklaces, belt buckles, and zippers instantly superheat, welding directly into your skin.",
+      "start": 25.638,
+      "end": 31.662
+    },
+    {
+      "i": 5,
+      "text": "Internally, the colossal electrical surge short-circuits your nervous system, instantly flatlining your heart into cardiac arrest.",
+      "start": 31.882,
+      "end": 38.77
+    },
+    {
+      "i": 6,
+      "text": "As microscopic capillaries rupture, red blood cells bleed into your skin, creating permanent fractal tree scars called Lichtenberg figures.",
+      "start": 38.99,
+      "end": 46.742
+    },
+    {
+      "i": 7,
+      "text": "Yet miraculously, over ninety percent of people actually survive, because the bolt passes in mere microseconds.",
+      "start": 46.962,
+      "end": 53.49
+    },
+    {
+      "i": 8,
+      "text": "Would you brave an electric storm? Subscribe to Behind The Science for daily mind-blowing facts.",
+      "start": 53.71,
+      "end": 59.518
+    }
+  ]
+}

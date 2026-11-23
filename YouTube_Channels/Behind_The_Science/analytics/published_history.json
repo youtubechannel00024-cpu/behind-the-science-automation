@@ -154,6 +154,36 @@
         "likes": 0,
         "comments": 0
       }
+    },
+    {
+      "id": "RBwcmWjDMXY",
+      "title": "What ACTUALLY Happens When You Get Struck By Lightning? ⚡ #Shorts",
+      "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
+      "topic": "Lightning Strike Biophysics & Lichtenberg Figures",
+      "style": "deep-dive",
+      "duration": 60.17,
+      "published_at": "2026-11-23T12:50:22.923650+05:30",
+      "status": "published",
+      "platforms": {
+        "youtube": {
+          "id": "RBwcmWjDMXY",
+          "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
+          "status": "published"
+        },
+        "facebook": {
+          "id": "1155431546954385",
+          "status": "published"
+        },
+        "instagram": {
+          "id": "18008646089825285",
+          "status": "published"
+        }
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
     }
   ],
   "cross_platform_published": [

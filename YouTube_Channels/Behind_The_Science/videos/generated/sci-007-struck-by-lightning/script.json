@@ -1,0 +1,47 @@
+{
+  "title": "What Happens When You Get Struck By Lightning?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.15,
+  "lead": 0.35,
+  "outro": 0.65,
+  "gap": 0.22,
+  "music": "bed",
+  "lines": [
+    {
+      "text": "A single bolt of lightning contains up to one billion volts, and heats the air to fifty-thousand degrees Fahrenheit.",
+      "caps": "1 BILLION VOLTS | 50,000 DEGREES!"
+    },
+    {
+      "text": "That is five times hotter than the surface of the Sun. So what happens if it strikes you?",
+      "caps": "5X HOTTER | THAN THE SUN!"
+    },
+    {
+      "text": "In less than a millisecond, the massive current hits your skin, triggering an effect called an external flashover.",
+      "caps": "EXTERNAL | *FLASHOVER!"
+    },
+    {
+      "text": "Any sweat or rain on your body instantly flash-boils into steam, expanding so violently it blows your clothes right off.",
+      "caps": "STEAM *EXPLOSION! | BLOWS CLOTHES *OFF!"
+    },
+    {
+      "text": "Metal necklaces, belt buckles, and zippers instantly superheat, welding directly into your skin.",
+      "caps": "SUPERHEATED *METAL | WELDED TO *SKIN!"
+    },
+    {
+      "text": "Internally, the colossal electrical surge short-circuits your nervous system, instantly flatlining your heart into cardiac arrest.",
+      "caps": "HEART *FLATLINES! | CARDIAC *ARREST!"
+    },
+    {
+      "text": "As microscopic capillaries rupture, red blood cells bleed into your skin, creating permanent fractal tree scars called Lichtenberg figures.",
+      "caps": "LICHTENBERG *FIGURES | FRACTAL *SCARS!"
+    },
+    {
+      "text": "Yet miraculously, over ninety percent of people actually survive, because the bolt passes in mere microseconds.",
+      "caps": "90% *SURVIVE! | MICROSECOND *MIRACLE!"
+    },
+    {
+      "text": "Would you brave an electric storm? Subscribe to Behind The Science for daily mind-blowing facts.",
+      "caps": "BRAVE THE *STORM? | SUBSCRIBE *NOW!"
+    }
+  ]
+}
