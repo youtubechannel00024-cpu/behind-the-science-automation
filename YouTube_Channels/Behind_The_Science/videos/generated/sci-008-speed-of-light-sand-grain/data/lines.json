@@ -1,0 +1,37 @@
+{
+  "duration": 32.72,
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.18,
+  "lines": [
+    {
+      "i": 0,
+      "text": "What happens if a single grain of sand strikes Earth at ninety-nine point nine percent the speed of light?",
+      "start": 0.25,
+      "end": 5.506
+    },
+    {
+      "i": 1,
+      "text": "A grain of sand weighs just one milligram, but at relativistic speeds, its kinetic energy becomes apocalyptic.",
+      "start": 5.686,
+      "end": 12.286
+    },
+    {
+      "i": 2,
+      "text": "The moment it hits Earth's atmosphere, air molecules cannot move away, fusing together in instant thermonuclear fusion!",
+      "start": 12.466,
+      "end": 19.042
+    },
+    {
+      "i": 3,
+      "text": "It releases the explosive force of multiple tons of TNT, carving a massive glowing crater into the ground.",
+      "start": 19.222,
+      "end": 25.414
+    },
+    {
+      "i": 4,
+      "text": "Only one percent of people understand this physics. Subscribe to Behind The Science to get smarter every day!",
+      "start": 25.594,
+      "end": 32.17
+    }
+  ]
+}

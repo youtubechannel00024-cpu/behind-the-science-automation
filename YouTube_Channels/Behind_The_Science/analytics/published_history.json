@@ -184,6 +184,36 @@
         "likes": 0,
         "comments": 0
       }
+    },
+    {
+      "id": "PENDING_YT_QUOTA",
+      "title": "What If A Grain of Sand Hits Earth At The Speed of Light? ⚡💥 #Shorts",
+      "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
+      "topic": "Relativistic Physics: Speed of Light Sand Grain Impact",
+      "style": "deep-dive",
+      "duration": 32.72,
+      "published_at": "2026-11-24T12:43:14.290367+05:30",
+      "status": "published",
+      "platforms": {
+        "youtube": {
+          "id": "PENDING_YT_QUOTA",
+          "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
+          "status": "published"
+        },
+        "facebook": {
+          "id": "1148188614851504",
+          "status": "published"
+        },
+        "instagram": {
+          "id": "18001090584044678",
+          "status": "published"
+        }
+      },
+      "stats": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      }
     }
   ],
   "cross_platform_published": [
