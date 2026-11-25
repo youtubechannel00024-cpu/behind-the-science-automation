@@ -1,276 +1,312 @@
 {
-  "channel": {
-    "name": "Behind The Science",
-    "handle": "@behindthescience-24",
-    "id": "UCXOcwa_0V2tSyPonkbOeSIA"
-  },
-  "published_videos": [
-    {
-      "id": "MaDtHo_ug4Y",
-      "title": "What REALLY Happens When You Crack Your Knuckles? 💥🦴",
-      "url": "https://www.youtube.com/watch?v=MaDtHo_ug4Y",
-      "topic": "Knuckle Cracking Science",
-      "style": "deep-dive",
-      "duration": 22.3,
-      "playlist_id": "PLEZgc6prAhD0",
-      "published_at": "2026-11-15T13:28:00+05:30",
-      "status": "published",
-      "stats": {
-        "views": 510,
-        "likes": 12,
-        "comments": 2
-      }
+    "channel": {
+        "name": "Behind The Science",
+        "handle": "@behindthescience-24",
+        "id": "UCXOcwa_0V2tSyPonkbOeSIA"
     },
-    {
-      "id": "I5lO2_n_bSI",
-      "title": "Why Do Your Fingers ACTUALLY Wrinkle in Water? 🛁🖐️",
-      "url": "https://www.youtube.com/watch?v=I5lO2_n_bSI",
-      "topic": "Pruny Fingers Nervous System Reflex",
-      "style": "deep-dive",
-      "duration": 22.3,
-      "playlist_id": "PLEZgc6prAhD0",
-      "published_at": "2026-11-15T14:02:00+05:30",
-      "status": "published",
-      "stats": {
-        "views": 297,
-        "likes": 3,
-        "comments": 0
-      }
-    },
-    {
-      "id": "7PS6A-MckpU",
-      "title": "What REALLY Happens If You Fall Into a Black Hole? 🕳️⏳",
-      "url": "https://www.youtube.com/watch?v=7PS6A-MckpU",
-      "topic": "Spaghettification & Gravitational Time Dilation",
-      "style": "night-file",
-      "duration": 59.96,
-      "playlist_id": "PLEZgc6prAhD0",
-      "published_at": "2026-11-15T15:45:00+05:30",
-      "status": "published",
-      "stats": {
-        "views": 6,
-        "likes": 0,
-        "comments": 0
-      }
-    },
-    {
-      "id": "v5rzutkL1_s",
-      "title": "Can You ACTUALLY Cry in Space? 🚀😭",
-      "url": "https://www.youtube.com/watch?v=v5rzutkL1_s",
-      "topic": "Can You Cry in Space?",
-      "style": "deep-dive",
-      "duration": 24.4,
-      "playlist_id": "PLEZgc6prAhD0",
-      "published_at": "2026-11-15T10:50:25.414426+00:00",
-      "status": "published",
-      "stats": {
-        "views": "0",
-        "likes": "0",
-        "comments": "0"
-      }
-    },
-    {
-      "id": "k8HJM4viP-c",
-      "title": "Why Does Stomach Acid Not Melt You? 🔬🛡️",
-      "url": "https://www.youtube.com/watch?v=k8HJM4viP-c",
-      "topic": "Why Does Stomach Acid Not Melt Your Own Organs?",
-      "style": "inside-out",
-      "duration": 24.37,
-      "playlist_id": "PLEZgc6prAhD0",
-      "published_at": "2026-11-16T05:38:12Z",
-      "status": "published",
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      }
-    },
-    {
-      "id": "3k9KV1dOU5E",
-      "title": "What REALLY Happens If You Don't Sleep For 7 Days? #Shorts",
-      "url": "https://www.youtube.com/watch?v=3k9KV1dOU5E",
-      "topic": "Sleep Deprivation & Brain Astrocytes",
-      "style": "inside-out",
-      "duration": 53.0,
-      "published_at": "2026-11-17T06:54:00.056794+00:00",
-      "status": "published",
-      "stats": {
-        "views": "0",
-        "likes": "0",
-        "comments": "0"
-      },
-      "cross_platform": {
-        "youtube_id": "3k9KV1dOU5E",
-        "instagram_media_id": "18158973529519533",
-        "facebook_video_id": "2946670769043830"
-      }
-    },
-    {
-      "id": "gxmgWTc5yzc",
-      "title": "What If You Swallow Liquid Nitrogen? #Shorts",
-      "url": "https://www.youtube.com/watch?v=gxmgWTc5yzc",
-      "topic": "Liquid Nitrogen & Cryogenic Stomach Explosion",
-      "style": "inside-out",
-      "duration": 56.86,
-      "published_at": "2026-11-18T10:55:53.672778+00:00",
-      "status": "published",
-      "stats": {
-        "views": "0",
-        "likes": "0",
-        "comments": "0"
-      },
-      "cross_platform": {
-        "youtube_id": "gxmgWTc5yzc",
-        "instagram_media_id": "18124248847821452",
-        "facebook_video_id": "1112280065178289"
-      }
-    },
-    {
-      "id": "TxaWaTA2ERQ",
-      "title": "What Happens If A Bullet Ant Stings You? 🐜⚡ #Shorts",
-      "url": "https://www.youtube.com/watch?v=TxaWaTA2ERQ",
-      "topic": "Bullet Ant Sting & Neurotoxin (Schmidt 4.0+)",
-      "style": "deep-dive",
-      "duration": 56.47,
-      "published_at": "2026-11-19T18:58:53.863113+05:30",
-      "status": "published",
-      "platforms": {
-        "youtube": {
-          "id": "TxaWaTA2ERQ",
-          "url": "https://www.youtube.com/watch?v=TxaWaTA2ERQ",
-          "status": "published"
+    "published_videos": [
+        {
+            "id": "MaDtHo_ug4Y",
+            "title": "What REALLY Happens When You Crack Your Knuckles? 💥🦴",
+            "url": "https://www.youtube.com/watch?v=MaDtHo_ug4Y",
+            "topic": "Knuckle Cracking Science",
+            "style": "deep-dive",
+            "duration": 22.3,
+            "playlist_id": "PLEZgc6prAhD0",
+            "published_at": "2026-11-15T13:28:00+05:30",
+            "status": "published",
+            "stats": {
+                "views": 510,
+                "likes": 12,
+                "comments": 2
+            }
         },
-        "facebook": {
-          "id": "1898163898198482",
-          "status": "published"
+        {
+            "id": "I5lO2_n_bSI",
+            "title": "Why Do Your Fingers ACTUALLY Wrinkle in Water? 🛁🖐️",
+            "url": "https://www.youtube.com/watch?v=I5lO2_n_bSI",
+            "topic": "Pruny Fingers Nervous System Reflex",
+            "style": "deep-dive",
+            "duration": 22.3,
+            "playlist_id": "PLEZgc6prAhD0",
+            "published_at": "2026-11-15T14:02:00+05:30",
+            "status": "published",
+            "stats": {
+                "views": 297,
+                "likes": 3,
+                "comments": 0
+            }
         },
-        "instagram": {
-          "id": "18100694144666091",
-          "status": "published"
+        {
+            "id": "7PS6A-MckpU",
+            "title": "What REALLY Happens If You Fall Into a Black Hole? 🕳️⏳",
+            "url": "https://www.youtube.com/watch?v=7PS6A-MckpU",
+            "topic": "Spaghettification & Gravitational Time Dilation",
+            "style": "night-file",
+            "duration": 59.96,
+            "playlist_id": "PLEZgc6prAhD0",
+            "published_at": "2026-11-15T15:45:00+05:30",
+            "status": "published",
+            "stats": {
+                "views": 6,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "v5rzutkL1_s",
+            "title": "Can You ACTUALLY Cry in Space? 🚀😭",
+            "url": "https://www.youtube.com/watch?v=v5rzutkL1_s",
+            "topic": "Can You Cry in Space?",
+            "style": "deep-dive",
+            "duration": 24.4,
+            "playlist_id": "PLEZgc6prAhD0",
+            "published_at": "2026-11-15T10:50:25.414426+00:00",
+            "status": "published",
+            "stats": {
+                "views": "0",
+                "likes": "0",
+                "comments": "0"
+            }
+        },
+        {
+            "id": "k8HJM4viP-c",
+            "title": "Why Does Stomach Acid Not Melt You? 🔬🛡️",
+            "url": "https://www.youtube.com/watch?v=k8HJM4viP-c",
+            "topic": "Why Does Stomach Acid Not Melt Your Own Organs?",
+            "style": "inside-out",
+            "duration": 24.37,
+            "playlist_id": "PLEZgc6prAhD0",
+            "published_at": "2026-11-16T05:38:12Z",
+            "status": "published",
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "3k9KV1dOU5E",
+            "title": "What REALLY Happens If You Don't Sleep For 7 Days? #Shorts",
+            "url": "https://www.youtube.com/watch?v=3k9KV1dOU5E",
+            "topic": "Sleep Deprivation & Brain Astrocytes",
+            "style": "inside-out",
+            "duration": 53.0,
+            "published_at": "2026-11-17T06:54:00.056794+00:00",
+            "status": "published",
+            "stats": {
+                "views": "0",
+                "likes": "0",
+                "comments": "0"
+            },
+            "cross_platform": {
+                "youtube_id": "3k9KV1dOU5E",
+                "instagram_media_id": "18158973529519533",
+                "facebook_video_id": "2946670769043830"
+            }
+        },
+        {
+            "id": "gxmgWTc5yzc",
+            "title": "What If You Swallow Liquid Nitrogen? #Shorts",
+            "url": "https://www.youtube.com/watch?v=gxmgWTc5yzc",
+            "topic": "Liquid Nitrogen & Cryogenic Stomach Explosion",
+            "style": "inside-out",
+            "duration": 56.86,
+            "published_at": "2026-11-18T10:55:53.672778+00:00",
+            "status": "published",
+            "stats": {
+                "views": "0",
+                "likes": "0",
+                "comments": "0"
+            },
+            "cross_platform": {
+                "youtube_id": "gxmgWTc5yzc",
+                "instagram_media_id": "18124248847821452",
+                "facebook_video_id": "1112280065178289"
+            }
+        },
+        {
+            "id": "TxaWaTA2ERQ",
+            "title": "What Happens If A Bullet Ant Stings You? 🐜⚡ #Shorts",
+            "url": "https://www.youtube.com/watch?v=TxaWaTA2ERQ",
+            "topic": "Bullet Ant Sting & Neurotoxin (Schmidt 4.0+)",
+            "style": "deep-dive",
+            "duration": 56.47,
+            "published_at": "2026-11-19T18:58:53.863113+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "TxaWaTA2ERQ",
+                    "url": "https://www.youtube.com/watch?v=TxaWaTA2ERQ",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "1898163898198482",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18100694144666091",
+                    "status": "published"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "RBwcmWjDMXY",
+            "title": "What ACTUALLY Happens When You Get Struck By Lightning? ⚡ #Shorts",
+            "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
+            "topic": "Lightning Strike Biophysics & Lichtenberg Figures",
+            "style": "deep-dive",
+            "duration": 60.17,
+            "published_at": "2026-11-23T12:50:22.923650+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "RBwcmWjDMXY",
+                    "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "1155431546954385",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18008646089825285",
+                    "status": "published"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "PENDING_YT_QUOTA",
+            "title": "What If A Grain of Sand Hits Earth At The Speed of Light? ⚡💥 #Shorts",
+            "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
+            "topic": "Relativistic Physics: Speed of Light Sand Grain Impact",
+            "style": "deep-dive",
+            "duration": 32.72,
+            "published_at": "2026-11-24T12:43:14.290367+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "PENDING_YT_QUOTA",
+                    "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "1148188614851504",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18001090584044678",
+                    "status": "published"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "Czc46W-ThcE",
+            "title": "What If A Grain of Sand Hits Earth At The Speed of Light? ⚡💥 #Shorts",
+            "url": "https://www.youtube.com/watch?v=Czc46W-ThcE",
+            "topic": "Relativistic Physics: Speed of Light Sand Grain Impact",
+            "style": "deep-dive",
+            "duration": 32.72,
+            "published_at": "2026-11-24T13:38:18.726674+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "Czc46W-ThcE",
+                    "url": "https://www.youtube.com/watch?v=Czc46W-ThcE",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "1148188614851504",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18001090584044678",
+                    "status": "published"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
+        },
+        {
+            "id": "PENDING_YT_QUOTA_RESET",
+            "title": "Why Do You Jerk Awake When Falling Asleep? 🛏️⚡ #Shorts",
+            "url": "",
+            "topic": "The Hypnic Jerk (Why do you jerk when falling asleep?)",
+            "style": "deep-dive",
+            "duration": 30.2,
+            "local_video_path": "d:\\Youtube\\YouTube_Channels\\Behind_The_Science\\videos\\generated\\sci-009-why-you-jerk-when-falling-asleep\\renders\\out.mp4",
+            "staged_url": "https://h.uguu.se/fvdkSZbMnBmj.mp4",
+            "published_at": "2026-11-25T11:48:18.239339",
+            "status": "published_meta_pending_yt",
+            "platforms": {
+                "facebook": {
+                    "id": "2168641727359019",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18125490073934008",
+                    "status": "published"
+                },
+                "youtube": {
+                    "status": "pending_quota_reset_1330_ist",
+                    "reason": "YouTube API 429 daily quota limit"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
         }
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      }
-    },
-    {
-      "id": "RBwcmWjDMXY",
-      "title": "What ACTUALLY Happens When You Get Struck By Lightning? ⚡ #Shorts",
-      "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
-      "topic": "Lightning Strike Biophysics & Lichtenberg Figures",
-      "style": "deep-dive",
-      "duration": 60.17,
-      "published_at": "2026-11-23T12:50:22.923650+05:30",
-      "status": "published",
-      "platforms": {
-        "youtube": {
-          "id": "RBwcmWjDMXY",
-          "url": "https://www.youtube.com/watch?v=RBwcmWjDMXY",
-          "status": "published"
+    ],
+    "cross_platform_published": [
+        {
+            "title": "What REALLY Happens When You Crack Your Knuckles?",
+            "ig_id": "18119855996118712",
+            "fb_id": "1066064199780439"
         },
-        "facebook": {
-          "id": "1155431546954385",
-          "status": "published"
+        {
+            "title": "Why Do Fingers Prune in Water?",
+            "ig_id": "17926736304216747",
+            "fb_id": "1876066510061169"
         },
-        "instagram": {
-          "id": "18008646089825285",
-          "status": "published"
+        {
+            "title": "What If You Fell Into a Black Hole?",
+            "ig_id": "18081674138397711",
+            "fb_id": "1747303453033667"
+        },
+        {
+            "title": "Why Does Stomach Acid Not Melt You?",
+            "ig_id": "18120448313582935",
+            "fb_id": "1689112046204986"
+        },
+        {
+            "title": "Can You Cry in Space?",
+            "ig_id": "18099637169121162",
+            "fb_id": "2884171478624585"
+        },
+        {
+            "title": "Why Do You Jerk Awake When Falling Asleep?",
+            "ig_id": "18125490073934008",
+            "fb_id": "2168641727359019"
         }
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      }
-    },
-    {
-      "id": "PENDING_YT_QUOTA",
-      "title": "What If A Grain of Sand Hits Earth At The Speed of Light? ⚡💥 #Shorts",
-      "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
-      "topic": "Relativistic Physics: Speed of Light Sand Grain Impact",
-      "style": "deep-dive",
-      "duration": 32.72,
-      "published_at": "2026-11-24T12:43:14.290367+05:30",
-      "status": "published",
-      "platforms": {
-        "youtube": {
-          "id": "PENDING_YT_QUOTA",
-          "url": "https://www.youtube.com/watch?v=PENDING_YT_QUOTA",
-          "status": "published"
-        },
-        "facebook": {
-          "id": "1148188614851504",
-          "status": "published"
-        },
-        "instagram": {
-          "id": "18001090584044678",
-          "status": "published"
-        }
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      }
-    },
-    {
-      "id": "Czc46W-ThcE",
-      "title": "What If A Grain of Sand Hits Earth At The Speed of Light? ⚡💥 #Shorts",
-      "url": "https://www.youtube.com/watch?v=Czc46W-ThcE",
-      "topic": "Relativistic Physics: Speed of Light Sand Grain Impact",
-      "style": "deep-dive",
-      "duration": 32.72,
-      "published_at": "2026-11-24T13:38:18.726674+05:30",
-      "status": "published",
-      "platforms": {
-        "youtube": {
-          "id": "Czc46W-ThcE",
-          "url": "https://www.youtube.com/watch?v=Czc46W-ThcE",
-          "status": "published"
-        },
-        "facebook": {
-          "id": "1148188614851504",
-          "status": "published"
-        },
-        "instagram": {
-          "id": "18001090584044678",
-          "status": "published"
-        }
-      },
-      "stats": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      }
-    }
-  ],
-  "cross_platform_published": [
-    {
-      "title": "What REALLY Happens When You Crack Your Knuckles?",
-      "ig_id": "18119855996118712",
-      "fb_id": "1066064199780439"
-    },
-    {
-      "title": "Why Do Fingers Prune in Water?",
-      "ig_id": "17926736304216747",
-      "fb_id": "1876066510061169"
-    },
-    {
-      "title": "What If You Fell Into a Black Hole?",
-      "ig_id": "18081674138397711",
-      "fb_id": "1747303453033667"
-    },
-    {
-      "title": "Why Does Stomach Acid Not Melt You?",
-      "ig_id": "18120448313582935",
-      "fb_id": "1689112046204986"
-    },
-    {
-      "title": "Can You Cry in Space?",
-      "ig_id": "18099637169121162",
-      "fb_id": "2884171478624585"
-    }
-  ]
+    ]
 }
