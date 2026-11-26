@@ -276,6 +276,38 @@
                 "likes": 0,
                 "comments": 0
             }
+        },
+        {
+            "id": "7zS4P329258",
+            "title": "Why Does Your Foot ACTUALLY \"Fall Asleep\"? 🦶⚡ #Shorts",
+            "url": "https://www.youtube.com/watch?v=7zS4P329258",
+            "topic": "Foot Falling Asleep (Paresthesia & Nerve Compression)",
+            "style": "inside-out",
+            "duration": 27.57,
+            "local_video_path": "d:\\Youtube\\YouTube_Channels\\Behind_The_Science\\videos\\generated\\sci-010-why-does-your-foot-fall-asleep\\renders\\out.mp4",
+            "staged_url": "https://d.uguu.se/KHjKVxicvpYS.mp4",
+            "published_at": "2026-11-26T18:33:02.252227+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "7zS4P329258",
+                    "url": "https://www.youtube.com/watch?v=7zS4P329258",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "2668682956909140",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": "18090114551310153",
+                    "status": "published"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
         }
     ],
     "cross_platform_published": [
@@ -308,6 +340,11 @@
             "title": "Why Do You Jerk Awake When Falling Asleep?",
             "ig_id": "18125490073934008",
             "fb_id": "2168641727359019"
+        },
+        {
+            "title": "Why Does Your Foot ACTUALLY \"Fall Asleep\"?",
+            "ig_id": "18090114551310153",
+            "fb_id": "2668682956909140"
         }
     ]
 }
