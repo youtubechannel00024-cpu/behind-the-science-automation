@@ -246,16 +246,16 @@
             }
         },
         {
-            "id": "PENDING_YT_QUOTA_RESET",
+            "id": "1b4qBGVfsZ0",
             "title": "Why Do You Jerk Awake When Falling Asleep? 🛏️⚡ #Shorts",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=1b4qBGVfsZ0",
             "topic": "The Hypnic Jerk (Why do you jerk when falling asleep?)",
             "style": "deep-dive",
             "duration": 30.2,
             "local_video_path": "d:\\Youtube\\YouTube_Channels\\Behind_The_Science\\videos\\generated\\sci-009-why-you-jerk-when-falling-asleep\\renders\\out.mp4",
-            "staged_url": "https://h.uguu.se/fvdkSZbMnBmj.mp4",
-            "published_at": "2026-11-25T11:48:18.239339",
-            "status": "published_meta_pending_yt",
+            "staged_url": "https://h.uguu.se/ilWiGvvvrdQc.mp4",
+            "published_at": "2026-11-26T18:14:51+05:30",
+            "status": "published",
             "platforms": {
                 "facebook": {
                     "id": "2168641727359019",
@@ -266,8 +266,9 @@
                     "status": "published"
                 },
                 "youtube": {
-                    "status": "pending_quota_reset_1330_ist",
-                    "reason": "YouTube API 429 daily quota limit"
+                    "id": "1b4qBGVfsZ0",
+                    "url": "https://www.youtube.com/watch?v=1b4qBGVfsZ0",
+                    "status": "published"
                 }
             },
             "stats": {
