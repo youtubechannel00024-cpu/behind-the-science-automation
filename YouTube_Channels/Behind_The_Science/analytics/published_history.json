@@ -340,6 +340,40 @@
                 "likes": 0,
                 "comments": 0
             }
+        },
+        {
+            "id": "lEkMEM8qbY8",
+            "title": "Mini-CRISPR (Al3Cas12f): Kya DNA ko Body ke Andar Repair Karna Possible Hai?",
+            "url": "https://www.youtube.com/watch?v=lEkMEM8qbY8",
+            "topic": "Mini-CRISPR (Al3Cas12f / MG119-28) — Future of Targeted DNA Repair",
+            "style": "long-form-documentary",
+            "format": "16:9_1080p_24fps",
+            "duration": 598.54,
+            "local_video_path": "d:\\Youtube\\YouTube_Channels\\Behind_The_Science\\videos\\generated\\doc-001-mini-crispr-al3cas12f\\renders\\documentary_1080p.mp4",
+            "local_thumbnail_path": "d:\\Youtube\\YouTube_Channels\\Behind_The_Science\\videos\\generated\\doc-001-mini-crispr-al3cas12f\\renders\\thumbnail.jpg",
+            "staged_url": "https://n.uguu.se/uwblQsffbovT.mp4",
+            "published_at": "2026-11-27T18:12:38+05:30",
+            "status": "published",
+            "platforms": {
+                "youtube": {
+                    "id": "lEkMEM8qbY8",
+                    "url": "https://www.youtube.com/watch?v=lEkMEM8qbY8",
+                    "status": "published"
+                },
+                "facebook": {
+                    "id": "1130134916598230",
+                    "status": "published"
+                },
+                "instagram": {
+                    "id": null,
+                    "status": "manual_required_no_reels_api_deprecated"
+                }
+            },
+            "stats": {
+                "views": 0,
+                "likes": 0,
+                "comments": 0
+            }
         }
     ],
     "cross_platform_published": [
@@ -382,6 +416,11 @@
             "title": "Why Does Your Eyelid ACTUALLY Twitch?",
             "ig_id": "18291093712292974",
             "fb_id": "1181639274810931"
+        },
+        {
+            "title": "Mini-CRISPR (Al3Cas12f): Kya DNA ko Body ke Andar Repair Karna Possible Hai?",
+            "ig_id": null,
+            "fb_id": "1130134916598230"
         }
     ]
 }

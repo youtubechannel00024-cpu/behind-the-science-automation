@@ -1,0 +1,350 @@
+{
+  "title": "Mini-CRISPR (Al3Cas12f): The Tiny Gene Editor That Could Change DNA Repair Forever",
+  "voice": "hi-IN-MadhurNeural",
+  "rate": "+4%",
+  "lead": 1.0,
+  "outro": 2.5,
+  "gap": 0.35,
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter": "01 · THE MICROSCOPIC HOOK",
+      "title": "Inside The Human Cell",
+      "plate": "assets/s01.jpg",
+      "altPlate": "assets/thumbnail_bg.jpg",
+      "mood": "mystery",
+      "lines": [
+        {
+          "tts": "Imagine अगर future में किसी genetic disease की वजह बनने वाले DNA के एक छोटे से error को body के अंदर ही target करके correct करना possible हो जाए।",
+          "cap": "Imagine agar future mein kisi genetic disease ki wajah banne wale DNA ke ek chhote se error ko body ke andar hi target karke correct karna possible ho jaye.",
+          "tag": "GENETIC TARGETING CONCEPT"
+        },
+        {
+          "tts": "Scientists इसी direction में gene-editing technology को develop कर रहे हैं। और अब researchers एक ऐसे compact CRISPR system पर काम कर रहे हैं जो इस technology को और accessible बना सकता है।",
+          "cap": "Scientists isi direction mein gene-editing technology ko develop kar rahe hain. Aur ab researchers ek aise compact CRISPR system par kaam kar rahe hain jo ise aur accessible bana sakta hai.",
+          "tag": "COMPACT CRISPR EVOLUTION"
+        },
+        {
+          "tts": "हमारी हर human cell के nucleus के अंदर, जीवन का सबसे intricate code छिपा है — हमारा DNA। सवाल यह है: क्या हम इस code को सुरक्षित तरीके से अंदर जाकर edit कर सकते हैं?",
+          "cap": "Hamari har human cell ke nucleus ke andar hamara DNA chhipa hai. Sawal hai: kya hum is code ko safe tarike se edit kar sakte hain?",
+          "tag": "INSIDE THE CELL NUCLEUS"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "chapter": "02 · DNA & GENETIC ERRORS",
+      "title": "The Blueprint of Life",
+      "plate": "assets/s02.jpg",
+      "altPlate": "assets/s02_b.jpg",
+      "mood": "science",
+      "lines": [
+        {
+          "tts": "इसे समझने के लिए DNA को हमारे पूरे शरीर का biological instruction manual मानिए। ये double helix चार chemical letters से लिखी जाती है: A, T, C और G।",
+          "cap": "DNA ko hamare pure sharir ka biological instruction manual maniye. Yeh double helix chaar chemical letters se likhi jati hai: A, T, C aur G.",
+          "tag": "BIOLOGICAL INSTRUCTION MANUAL"
+        },
+        {
+          "tts": "इंसानी genome में इनके लगभग three billion base pairs होते हैं। इनके specific segments, यानी genes, cells को बताते हैं कि कौन-सा protein बनाना है।",
+          "cap": "Insani genome mein lagbhag 3 billion base pairs hote hain. Inke specific segments, yani genes, cells ko batate hain kaun-sa protein banana hai.",
+          "tag": "3 BILLION BASE PAIRS"
+        },
+        {
+          "tts": "लेकिन सोचिए, अगर तीन-अरब अक्षरों की इस किताब में किसी ज़रूरी जगह पर सिर्फ एक single letter गलत छप जाए तो क्या होगा?",
+          "cap": "Lekin sochiye, agar 3 billion letters ki is kitab mein kisi zaroori jagah par sirf ek single letter galat chhap jaye to kya hoga?",
+          "tag": "POINT MUTATION ERROR"
+        },
+        {
+          "tts": "इसे mutation कहते हैं। कुछ mutations harmless होते हैं, पर critical genes में एक छोटा change पूरे protein का shape या function बिगाड़ सकता है।",
+          "cap": "Ise mutation kehte hain. Kai mutations harmless hote hain, par critical genes mein ek chhota change protein ka shape ya function bigaad sakta hai.",
+          "tag": "MISFOLDED PROTEIN IMPACT"
+        },
+        {
+          "tts": "इसी वजह से कई genetic disorders एक tiny DNA error से शुरू होते हैं — जहाँ दवाइयाँ अक्सर सिर्फ symptoms manage कर पाती हैं, root error को नहीं।",
+          "cap": "Isi wajah se kai genetic disorders ek tiny DNA error se shuru hote hain — jahan medicine aksar sirf symptoms manage karti hai, root error ko nahi.",
+          "tag": "FROM SYMPTOMS TO ROOT CODE"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "chapter": "03 · WHAT IS CRISPR?",
+      "title": "Programmable Molecular Scissors",
+      "plate": "assets/s03.jpg",
+      "altPlate": "assets/s03_b.jpg",
+      "mood": "science",
+      "lines": [
+        {
+          "tts": "यहीं पर CRISPR की entry हुई — एक programmable gene-editing technology जिसने molecular biology को हमेशा के लिए बदल दिया।",
+          "cap": "Yahin par CRISPR ki entry hui — ek programmable gene-editing technology jisne molecular biology ko badal diya.",
+          "tag": "CRISPR-CAS SYSTEM"
+        },
+        {
+          "tts": "दिलचस्प बात है कि CRISPR को इंसानों ने invent नहीं किया। यह bacteria का करोड़ों साल पुराना natural immune system है जो viruses से लड़ता है।",
+          "cap": "Dilchasp baat hai ki CRISPR insano ne invent nahi kiya. Yeh bacteria ka purana natural immune defense hai jo viruses se ladta hai.",
+          "tag": "BACTERIAL NATURAL DEFENSE"
+        },
+        {
+          "tts": "Scientists ने इसे दो हिस्सों वाले precision tool में बदला: एक है Guide RNA, जो molecular GPS की तरह target DNA sequence ढूँढता है, और दूसरा है Cas protein, जो molecular scissors की तरह काम करता है।",
+          "cap": "Scientists ne ise do hisson mein badla: Guide RNA (molecular GPS) jo target DNA dhoondhta hai, aur Cas protein jo molecular scissors ki tarah kaam karta hai.",
+          "tag": "GUIDE RNA (GPS) + CAS SCISSORS"
+        },
+        {
+          "tts": "DNA scan करते वक्त यह पहले एक छोटा checkpoint ढूँढता है जिसे PAM कहते हैं। Matching code मिलते ही यह वहीं lock होकर DNA strand को काटता है।",
+          "cap": "DNA scan karte waqt yeh pehle PAM checkpoint dhoondhta hai. Exact match milte hi yeh us spot par lock hokar DNA strand kaat deta hai.",
+          "tag": "PAM SEQUENCE RECOGNITION"
+        },
+        {
+          "tts": "Classic SpCas9 काफ़ी accurate है, लेकिन इसके साथ एक बड़ी physical problem जुड़ी है — इसका विशाल size।",
+          "cap": "Classic SpCas9 kaafi accurate hai, lekin iske sath ek badi physical problem judi hai — iska massive size.",
+          "tag": "THE SIZE BOTTLENECK"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "chapter": "04 · MEET Al3Cas12f",
+      "title": "The Miniature Gene Editor",
+      "plate": "assets/s04.jpg",
+      "altPlate": "assets/s04_b.jpg",
+      "mood": "breakthrough",
+      "lines": [
+        {
+          "tts": "अब मिलिए एक नए miniature candidate से — Al3Cas12f, जिसे MG119-28 के नाम से भी जाना जाता है।",
+          "cap": "Ab miliye ek naye miniature gene editor se — Al3Cas12f, jise metagenomic research mein MG119-28 bhi kehte hain.",
+          "tag": "AL3CAS12F (MG119-28)"
+        },
+        {
+          "tts": "April 2026 में Nature Structural and Molecular Biology में published study में University of Texas at Austin और Metagenomi के scientists ने इसे detail में characterize किया।",
+          "cap": "April 2026 mein Nature Structural & Molecular Biology mein published study mein, UT Austin aur Metagenomi ne ise characterize kiya.",
+          "tag": "GUAN ET AL. · NATURE STRUCTURAL (2026)"
+        },
+        {
+          "tts": "यह protein Alistipes bacteria से खोजा गया एक Type Five-F CRISPR enzyme है। अब इसका molecular size देखिए।",
+          "cap": "Yeh protein Alistipes bacteria se khoja gaya Type V-F CRISPR enzyme hai. Ab iska molecular size comparison dekhiye.",
+          "tag": "ORIGIN: ALISTIPES SP. (TYPE V-F)"
+        },
+        {
+          "tts": "जहाँ classic SpCas9 करीब one thousand three hundred sixty-eight amino acids और Cas12a बारह सौ से ज़्यादा amino acids के होते हैं, वहीं Un1Cas12f1 पाँच सौ उनतीस और Al3Cas12f सिर्फ four hundred thirty-three से four hundred eighty-eight amino acids की range में होता है — यानी Cas9 का करीब एक-तिहाई!",
+          "cap": "SpCas9 ~1,368 aa aur Cas12a ~1,228 aa ka hota hai, jabki Un1Cas12f1 529 aa aur Al3Cas12f ~433–488 amino acids ki range mein — yani Cas9 ka karib 1/3 size!",
+          "tag": "COMPARATIVE SIZE: ~1/3 OF CAS9"
+        },
+        {
+          "tts": "पुराने Cas12f editors छोटे तो थे, पर human cells में कमज़ोर रहते थे। Cryo-EM से दिखा कि Al3Cas12f में naturally एक मज़बूत, pre-assembled जैसा dimer interface है।",
+          "cap": "Purane Cas12f editors chhote the par human cells mein kamzor the. Cryo-EM se dikha ki Al3Cas12f mein naturally strong, stable dimer interface hai.",
+          "tag": "PRE-ASSEMBLED DIMER STABILITY"
+        },
+        {
+          "tts": "और जब researchers ने इसका Al3Cas12f RKK variant engineer किया, तो human cell lines में मुश्किल targets पर efficiency दस percent से बढ़कर अस्सी से नब्बे percent के ऊपर पहुँच गई।",
+          "cap": "Aur jab researchers ne Al3Cas12f RKK variant engineer kiya, to human cells mein mushkil targets par efficiency <10% se badhkar 80–90%+ pahunch gayi!",
+          "tag": "AL3CAS12F RKK: >80–90% IN VITRO"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "chapter": "05 · INSIDE THE NUCLEUS",
+      "title": "Molecular Mechanics of DNA Cutting",
+      "plate": "assets/s05.jpg",
+      "altPlate": "assets/thumbnail_bg.jpg",
+      "mood": "microscope",
+      "lines": [
+        {
+          "tts": "अब चलिए cell के nucleus के अंदर — देखते हैं यह miniature tool molecular level पर कैसे काम करता है।",
+          "cap": "Ab chaliye cell nucleus ke andar — dekhte hain yeh miniature tool molecular level par kaise kaam karta hai.",
+          "tag": "INSIDE CELL NUCLEUS"
+        },
+        {
+          "tts": "अकेले Cas9 से अलग, Al3Cas12f की दो protein copies आपस में जुड़कर एक asymmetric homodimer बनाती हैं और single guide RNA से कसकर बंध जाती हैं।",
+          "cap": "Cas9 se alag, Al3Cas12f ki do copies judkar ek asymmetric homodimer banati hain aur guide RNA ke sath lock ho jati hain.",
+          "tag": "1. ASYMMETRIC HOMODIMER COMPLEX"
+        },
+        {
+          "tts": "यह unit DNA पर T-rich PAM checkpoints, जैसे TTTR sequences को ढूँढकर वहाँ रुकती है।",
+          "cap": "Yeh complex DNA par T-rich PAM checkpoints, jaise TTTR sequences ko pehchankar wahan rukta hai.",
+          "tag": "2. PAM LOCK (T-RICH · TTTR)"
+        },
+        {
+          "tts": "फिर शुरू होता है R-loop formation — enzyme DNA के दोनों strands को खोलता है ताकि guide RNA सही strand से match हो सके।",
+          "cap": "Phir hota hai R-loop formation — enzyme DNA strands ko kholta hai taaki guide RNA exact target strand se match ho sake.",
+          "tag": "3. R-LOOP DNA UNWINDING"
+        },
+        {
+          "tts": "Match confirm होते ही RuvC nuclease domain DNA में एक double-stranded cut लगाता है।",
+          "cap": "Match confirm hote hi RuvC nuclease domain activate hokar target DNA mein ek double-stranded break banata hai.",
+          "tag": "4. RUVC DOUBLE-STRAND CUT"
+        },
+        {
+          "tts": "पर एक बेहद ज़रूरी सच समझिए: DNA को काटना और DNA को repair करना दो अलग processes हैं!",
+          "cap": "Par ek bohot zaroori sach samajhiye: DNA ko cut karna aur DNA ko repair karna do bilkul alag processes hain!",
+          "tag": "CRITICAL FACT: CUTTING ≠ REPAIRING"
+        },
+        {
+          "tts": "Al3Cas12f जादू से नया DNA नहीं भरता। Cut लगने के बाद cell अपने natural repair pathways चलाती है — पहला NHEJ, जो तेज़ी से कट जोड़ता है पर छोटे errors छोड़ सकता है; और दूसरा HDR, जो template देखकर precise repair करता है, हालांकि non-dividing cells में इसकी rate कम रहती है।",
+          "cap": "Cut ke baad cell ke natural enzymes kaam karte hain: NHEJ (fast patching jo harmful gene disrupt kar sakti hai) aur HDR (template-based precise repair, jo slow hai).",
+          "tag": "5. HOST REPAIR: NHEJ VS HDR"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "chapter": "06 · THE DELIVERY CHALLENGE",
+      "title": "Why Smaller Editors Matter",
+      "plate": "assets/s06.jpg",
+      "altPlate": "assets/s01.jpg",
+      "mood": "science",
+      "lines": [
+        {
+          "tts": "आखिर scientists छोटे gene editors क्यों खोज रहे हैं? इसका जवाब है cellular delivery की दीवार।",
+          "cap": "Aakhir scientists chhote gene editors kyu khoj rahe hain? Iska jawab hai cellular delivery ki sabse badi rukawat.",
+          "tag": "THE DELIVERY BOTTLENECK"
+        },
+        {
+          "tts": "Body के अंदर करोड़ों cells तक enzyme पहुँचाने के लिए scientists अक्सर Adeno-Associated Virus यानी AAV vectors इस्तेमाल करते हैं। ये harmless खाली viral capsules होते हैं।",
+          "cap": "Body mein cells tak enzyme pahunchane ke liye Adeno-Associated Virus (AAV) vectors use hote hain — yeh harmless empty viral shells hote hain.",
+          "tag": "AAV VIRAL VECTOR VEHICLE"
+        },
+        {
+          "tts": "बड़े Cas9 editors की वजह से कई therapies को ex-vivo करना पड़ता था — यानी cells को शरीर से बाहर निकालकर lab में edit करना और फिर वापस डालना।",
+          "cap": "Bade Cas9 editors ke karan kai therapies ko ex-vivo karna padta tha — yani cells ko sharir se bahar nikal kar lab mein edit karna.",
+          "tag": "EX-VIVO VS IN-VIVO CHALLENGE"
+        },
+        {
+          "tts": "लेकिन AAV के अंदर केवल four point seven kilobases का genetic cargo आ सकता है। Classic SpCas9 खुद four point two kilobases घेर लेता है, जिससे guide RNA के लिए जगह नहीं बचती।",
+          "cap": "Lekin AAV ki strict limit sirf ~4.7 kilobases hai. Classic SpCas9 khud ~4.2 kb gher leta hai, jisse promoters aur gRNA ke liye jagah nahi bachti.",
+          "tag": "AAV PAYLOAD CAP: ~4.7 KB"
+        },
+        {
+          "tts": "इसके विपरीत, compact Al3Cas12f अपने guide RNA और control switches के साथ आराम से एक single AAV vector में fit हो सकता है।",
+          "cap": "Iske ulat, compact Al3Cas12f apne guide RNA aur switches ke sath aaram se ek single AAV vector mein fit ho sakta hai.",
+          "tag": "ALL-IN-ONE SINGLE AAV FIT"
+        },
+        {
+          "tts": "पर ध्यान रहे — सिर्फ छोटा size होने से safe delivery या सफल इलाज की guarantee नहीं मिलती।",
+          "cap": "Par dhyan rahe — sirf chhota size hone se safe delivery ya safal ilaj ki guarantee nahi milti.",
+          "tag": "SIZE ALONE ≠ GUARANTEED CURE"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "chapter": "07 · FUTURE POSSIBILITIES",
+      "title": "Potential Medical Research Concepts",
+      "plate": "assets/s07.jpg",
+      "altPlate": "assets/s02.jpg",
+      "mood": "hopeful",
+      "lines": [
+        {
+          "tts": "फिर भी, अगर safety और delivery साबित हो जाएं, तो future precision medicine में इसके research concepts क्या हो सकते हैं?",
+          "cap": "Phir bhi, agar safety aur delivery sabit ho jayein, to future precision medicine mein iske potential concepts kya ho sakte hain?",
+          "tag": "POTENTIAL FUTURE APPLICATION"
+        },
+        {
+          "tts": "Researchers ने Al3Cas12f RKK को laboratory human cells में ALS, cholesterol pathway APOA1, और cancer biology से जुड़े genomic targets पर test किया है।",
+          "cap": "Researchers ne Al3Cas12f RKK ko lab human cells mein ALS, cholesterol pathway APOA1, aur cancer se jude genomic targets par test kiya hai.",
+          "tag": "RESEARCH CONCEPT · HUMAN CELLS ONLY"
+        },
+        {
+          "tts": "Retina, liver या central nervous system जैसे sensitive organs के लिए single-vector delivery एक promising research concept माना जाता है।",
+          "cap": "Retina, liver ya nervous system jaise sensitive organs ke liye single-vector delivery ek promising research concept mana jata hai.",
+          "tag": "SINGLE-VECTOR RESEARCH TARGETS"
+        },
+        {
+          "tts": "लेकिन साफ शब्दों में: ये अभी सिर्फ test-tube और cell-line experiments हैं — Al3Cas12f न तो किसी human clinical trial में पहुँचा है और न ही कोई approved treatment है।",
+          "cap": "Lekin saaf shabdon mein: yeh abhi sirf cell-line research hai — Al3Cas12f na to clinical trial mein pahuncha hai aur na hi approved treatment hai.",
+          "tag": "NOT AN APPROVED TREATMENT"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "chapter": "08 · RISKS & LIMITATIONS",
+      "title": "What Still Stands In The Way",
+      "plate": "assets/s08.jpg",
+      "altPlate": "assets/s03_b.jpg",
+      "mood": "caution",
+      "lines": [
+        {
+          "tts": "इस breakthrough के साथ गंभीर scientific risks भी जुड़े हैं जिन्हें नजरअंदाज नहीं किया जा सकता।",
+          "cap": "Is breakthrough ke sath gambhir scientific risks bhi jude hain jinhe nazarandaz nahi kiya ja sakta.",
+          "tag": "SERIOUS SAFETY HURDLES"
+        },
+        {
+          "tts": "पहला खतरा है off-target DNA editing — तीन-अरब अक्षरों में अगर editor गलत जगह कट लगा दे, तो वह healthy genes को नुकसान पहुँचा सकता है।",
+          "cap": "Pehla khatra hai off-target editing — agar editor galti se galat DNA site par cut laga de, to healthy genes ko nuksan ho sakta hai.",
+          "tag": "RISK 01 · OFF-TARGET DNA CUTS"
+        },
+        {
+          "tts": "दूसरा challenge है immune response। AAV viral shell और bacterial Cas12f दोनों के खिलाफ़ हमारा immune system antibodies बनाकर reaction दे सकता है।",
+          "cap": "Doosra challenge hai immune response. AAV viral shell aur bacterial Cas12f dono ke khilaf antibodies immune reaction de sakti hain.",
+          "tag": "RISK 02 · IMMUNE ANTIBODIES"
+        },
+        {
+          "tts": "तीसरा मुद्दा है long-term safety, unwanted DNA deletions, और somatic बनाम heritable germline editing से जुड़े गहरे ethical सवाल।",
+          "cap": "Teesra mudda hai long-term safety, unwanted DNA deletions, aur somatic vs germline editing se jude deep ethical sawal.",
+          "tag": "RISK 03 · ETHICS & LONG-TERM SAFETY"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "chapter": "09 · THE ROAD AHEAD",
+      "title": "From Discovery To Validation",
+      "plate": "assets/s09.jpg",
+      "altPlate": "assets/s04_b.jpg",
+      "mood": "science",
+      "lines": [
+        {
+          "tts": "तो फिर Al3Cas12f को clinics तक पहुँचने के लिए किन scientific stages से गुज़रना होगा?",
+          "cap": "To phir Al3Cas12f ko clinics tak pahunchne ke liye kin scientific stages se guzarna hoga?",
+          "tag": "SCIENTIFIC VALIDATION PATH"
+        },
+        {
+          "tts": "आधुनिक Cryo-EM labs और protein engineering आज researchers को precision बढ़ाने में मदद कर रही हैं।",
+          "cap": "Modern Cryo-EM labs aur protein engineering aaj researchers ko accuracy badhane mein madad kar rahi hain.",
+          "tag": "CRYO-EM PROTEIN OPTIMIZATION"
+        },
+        {
+          "tts": "पर हर medical tool को पहले lab cells, फिर animal safety studies, और आखिर में multi-phase human clinical trials पास करने पड़ते हैं — जिसमें कई साल लग सकते हैं।",
+          "cap": "Par har medical tool ko pehle lab cells, phir animal safety models, aur phir multi-phase human clinical trials pass karne hote hain — jismein saalon lagte hain.",
+          "tag": "CELLS → ANIMALS → TRIALS → CLINIC"
+        },
+        {
+          "tts": "फिर भी Al3Cas12f ने यह दिखाया है कि nature की microscopic दुनिया में अभी भी ऐसे compact blueprints छिपे हैं जो gene delivery के पुराने limits को आगे बढ़ा सकते हैं।",
+          "cap": "Phir bhi Al3Cas12f ne dikhaya hai ki nature ke microbial world mein aise compact blueprints chhipe hain jo gene delivery ki limits badha sakte hain.",
+          "tag": "EXPANDING THE GENETIC TOOLKIT"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "chapter": "10 · CONCLUSION",
+      "title": "Possibility vs Proven Medicine",
+      "plate": "assets/thumbnail_bg.jpg",
+      "altPlate": "assets/s01.jpg",
+      "mood": "conclusion",
+      "lines": [
+        {
+          "tts": "DNA हमारे body का biological instruction system है। और CRISPR जैसे tools scientists को इस instruction system को पहले से ज़्यादा precisely study और modify करने की opportunity दे रहे हैं।",
+          "cap": "DNA hamare body ka biological instruction system hai. Aur CRISPR jaise tools scientists ko is instruction system ko pehle se zyada precisely study aur modify karne ka opportunity de rahe hain.",
+          "tag": "PRECISION GENOMIC SCIENCE"
+        },
+        {
+          "tts": "Mini-CRISPR systems जैसे Al3Cas12f future gene editing के लिए एक interesting direction हैं। लेकिन science में possibility और proven treatment के बीच एक important difference होता है।",
+          "cap": "Mini-CRISPR systems jaise Al3Cas12f future gene editing ke liye ek interesting direction hain. Lekin science mein possibility aur proven treatment ke beech ek important difference hota hai.",
+          "tag": "POSSIBILITY ≠ PROVEN TREATMENT"
+        },
+        {
+          "tts": "और इसी difference को समझना हमें future medicine के लिए genuinely excited रहने में help karta है।",
+          "cap": "Aur isi difference ko samajhna humein future medicine ke liye genuinely excited rehne mein help karta hai.",
+          "tag": "BEHIND THE SCIENCE"
+        },
+        {
+          "tts": "ऐसे ही verified science documentaries के लिए Behind The Science को subscribe ज़रूर करें।",
+          "cap": "Aise hi verified science documentaries ke liye Behind The Science ko subscribe zaroor karein.",
+          "tag": "SUBSCRIBE · BEHIND THE SCIENCE"
+        }
+      ]
+    }
+  ]
+}

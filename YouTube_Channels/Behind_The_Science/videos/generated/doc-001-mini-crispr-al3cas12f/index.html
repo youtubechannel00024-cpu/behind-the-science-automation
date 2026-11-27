@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mini-CRISPR (Al3Cas12f) — Science Documentary</title>
+<style>
+@font-face { font-family: 'Inter'; font-weight: 900; src: url('fonts/Inter-Black.otf') format('opentype'); }
+html, body { margin: 0; padding: 0; background: #030712; overflow: hidden; height: 100%; }
+body { display: flex; align-items: center; justify-content: center; }
+canvas { display: block; width: 100vw; height: 56.25vw; max-height: 100vh; max-width: 177.78vh; }
+body.capture canvas { width: 1920px; height: 1080px; max-width: none; max-height: none; }
+</style>
+</head>
+<body>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script>if (location.search.includes('capture')) document.body.className = 'capture';</script>
+<script type="module" src="src/doc_engine.js"></script>
+</body>
+</html>
